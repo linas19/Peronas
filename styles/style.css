@@ -1,0 +1,88 @@
+.blokas {
+  padding: 32px;
+}
+.logo {
+ position:absolute;
+ left: 50%;
+ transform:translateX(-50%); /*sitas iscentruoja paveiksleli*/
+ top:3px;
+height: 90px;
+
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+
+
+.parallax-container { /*veikia aukstis paralaxo*/
+  max-height: 500px;
+
+}
+footer {
+  margin-top: -10px;
+}
+
+.footer li{
+
+
+  display: inline;
+  margin-left:50px;
+
+}
+.footer li a {    /* padarem footeryje navigacija vienoje eiluteje*/
+float:right;
+margin-right: 30px;
+color:grey;
+
+}
+.fonas {
+  background-color: black;
+  color:white;
+
+}
+#para-about{
+  max-height: 300px;
+}
+.mail {
+  display:none;
+}
+
+.nextgame-container {
+
+ position:absolute;
+ left: 50%;
+ transform:translateX(-50%);
+}
+
+h4 {
+
+ position:absolute;
+ left: 50%;
+ transform:translateX(-50%);
+ text-align: center;
+}
+
+footer div .footercontacts li{
+
+
+  display: inline;
+  margin-left:50px;
+
+}
+footer div .footercontacts li a {    /* padarem footeryje navigacija vienoje eiluteje*/
+float:right;
+margin-right: 30px;
+color:grey;
+
+}
+.forumsignup {
+  font-size: 55;
+}
